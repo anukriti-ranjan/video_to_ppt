@@ -6,7 +6,6 @@ This project provides an end-to-end solution to process video files for transcri
 
 - **Video Download & Processing:**
   - Download videos (using yt-dlp) in lower resolution (e.g., 480p) to save bandwidth.
-  - Extract screenshots at defined intervals.
   - Extract audio from the video and speed it up (e.g., 1.2x) for faster transcription.
   - Split audio into 1-minute segments for granular processing.
 
@@ -26,9 +25,6 @@ This project provides an end-to-end solution to process video files for transcri
     2. **Slide 2:** Summary slide covering the segment summary, counter-intuitive points, and topics.
     3. **Slide 3:** Q&A slide containing the question–answer pairs.
   - Automatically convert the presentation to a PDF (using LibreOffice in headless mode).
-
-- **Version Control:**
-  - Example instructions are provided for pushing the local repository to GitHub.
 
 #### Requirements
 
